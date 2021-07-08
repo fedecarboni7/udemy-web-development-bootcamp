@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+hr {
+    border: none;
+    width: 10%;
+    border-top: 5px dotted rgb(145, 145, 145);
+}
