@@ -3,6 +3,7 @@ body{
     margin-right: 0;
     margin-top: 0;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
@@ -11,16 +12,12 @@ h1{
 }
 
 .top-container{
-    padding-top: 170px;
     background-color: #27536B;
-    position: relative;
 }
 
 .moon-img{
     block-size: 130px;
-    position: absolute;
-    left: 330px;
-    top: 30px
+    padding-right: 600px;
 }
 
 .mountain-img{
@@ -30,9 +27,12 @@ h1{
     margin-bottom: -7px;
 }
 
-.mid-container{
-    
-}
+.middle-container{
+    padding-top: 30px;
+    background-color: #8faed6;
+}   
+
 .bottom-container{
+    background-color: #E1F1FF;
 }
 
