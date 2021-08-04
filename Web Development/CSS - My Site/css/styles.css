@@ -1,7 +1,7 @@
 body{
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     text-align: center;
 }
 
@@ -11,7 +11,25 @@ h1{
 }
 
 .top-container{
+    padding-top: 170px;
+    background-color: #27536B;
+    position: relative;
 }
+
+.moon-img{
+    block-size: 130px;
+    position: absolute;
+    left: 330px;
+    top: 30px
+}
+
+.mountain-img{
+    block-size: 290px;
+    padding-left: 570px;
+    margin-top: -70px;
+    margin-bottom: -7px;
+}
+
 .mid-container{
     
 }
