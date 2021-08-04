@@ -2,6 +2,7 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
+    text-align: center;
 }
 
 h1{
@@ -10,16 +11,10 @@ h1{
 }
 
 .top-container{
-    background-color: gray;
 }
 .mid-container{
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    
 }
 .bottom-container{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
 }
 
