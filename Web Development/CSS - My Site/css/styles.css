@@ -9,6 +9,23 @@ h1{
     margin-bottom: 0px;
 }
 
+h2 {
+    color: #0b263d;
+}
+
+p {
+    font-family: Montserrat; 
+    font-weight: bold;
+    color: #173247;
+}
+
+hr {
+    border: none;
+    width: 3%;
+    border-top: 6px dotted #CBE2FF;
+    margin: 30px auto;
+}
+
 .top-container{
     background-color: #27536B;
     padding-top: 50px;
@@ -39,12 +56,15 @@ h1{
 
 .skill-row{
     width: 50%;
-    margin: 100px auto;
+    margin: 30px auto;
     text-align: left;
 }
 
-hr {
-    border: none;
-    width: 3%;
-    border-top: 6px dotted #CBE2FF;
+.pictures{
+    block-size: 200px;
+}
+
+.profile{
+    width: 50%;
+    margin: 20px auto;
 }
