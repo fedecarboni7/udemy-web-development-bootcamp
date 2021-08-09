@@ -13,6 +13,10 @@ h2 {
     color: #0b263d;
 }
 
+h3 {
+    color: #0b263d;
+}
+
 p {
     font-family: Montserrat; 
     font-weight: bold;
@@ -60,11 +64,34 @@ hr {
     text-align: left;
 }
 
-.pictures{
-    block-size: 200px;
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
 .profile{
     width: 50%;
     margin: 20px auto;
+}
+
+.contact-me {
+    padding-bottom: 20px;
+}
+
+a {
+    color: #27536B;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    color: black;
+}
+  
+a:visited {
+    color: purple;
 }
