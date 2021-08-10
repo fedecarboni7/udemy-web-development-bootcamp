@@ -18,70 +18,30 @@ h3 {
 }
 
 p {
-    font-family: Montserrat; 
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #173247;
+}
+
+td {
+    font-family: "Montserrat"; 
     font-weight: bold;
     color: #173247;
 }
 
 hr {
     border: none;
-    width: 3%;
+    width: 4%;
     border-top: 6px dotted #CBE2FF;
-    margin: 30px auto;
-}
-
-.top-container{
-    background-color: #27536B;
-    padding-top: 50px;
-}
-
-.moon-img{
-    block-size: 130px;
-    padding-right: 620px;
-}
-
-.mountain-img{
-    block-size: 290px;
-    padding-left: 600px;
-    margin-top: -70px;
-    margin-bottom: -7px;
-}
-
-.middle-container{
-    padding-top: 30px;
-    background-color: #8faed6;
-}   
-
-.bottom-container{
-    background-color: #afcbf0;
-    padding-bottom: 1px;
-    padding-top: 10px;
-}
-
-.skill-row{
-    width: 50%;
-    margin: 30px auto;
-    text-align: left;
-}
-
-.code-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.profile{
-    width: 50%;
-    margin: 20px auto;
-}
-
-.contact-me {
-    padding-bottom: 20px;
+    margin: 100px auto;
 }
 
 a {
-    color: #27536B;
+    color: #173247;
     text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin: auto 10px;
 }
   
 a:hover {
@@ -93,5 +53,54 @@ a:active {
 }
   
 a:visited {
-    color: purple;
+    color: #27536B;
+}
+
+.top-container{
+    background-color: #27536B;
+    padding-top: 75px;
+}
+
+.moon-img{
+    block-size: 130px;
+    padding-right: 620px;
+}
+
+.mountain-img{
+    block-size: 290px;
+    padding-left: 600px;
+    margin-top: -50px;
+    margin-bottom: -7.5px;
+}
+
+.middle-container{
+    padding-top: 100px;
+    background-color: #8faed6;
+}   
+
+.profile{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 60px auto;
+    text-align: left;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom-container{
+    background-color: #CBE2FF;
+    padding-bottom: 1px;
+    padding-top: 10px;
+}
+
+.contact-me {
+    padding-bottom: 30px;
 }
