@@ -115,10 +115,10 @@ a:visited {
     font-size: 15px;
     margin-top: 15px;
     padding: 8px;
-    background-color: #0b263d;
-    -webkit-box-shadow: 1px 1px 5px 0 #0b263d;
-    -moz-box-shadow: 1px 1px 5px 0 #0b263d;
-    box-shadow: 1px 1px 1px 0 #0b263d;
+    background-color: #27536B;
+    -webkit-box-shadow: 1px 1px 5px 0 #27536B;
+    -moz-box-shadow: 1px 1px 5px 0 #27536B;
+    box-shadow: 1px 1px 1px 0 #27536B;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -126,8 +126,8 @@ a:visited {
  }
  
  .btn:hover {
-    background: #27536B;
-    border: solid #27536B 0;
+    background: #0b263d;
+    border: solid #0b263d 0;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 15px;
