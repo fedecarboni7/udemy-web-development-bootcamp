@@ -101,38 +101,36 @@ a:visited {
     margin-left: 30px;
 }
 
-.BUTTON_UBB {
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    border-radius: 13px;
-    color: #CBE2FF;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px;
-    background-color: #27536B;
-    -webkit-box-shadow: 1px 1px 9px 0 #000000;
-    -moz-box-shadow: 1px 1px 9px 0 #000000;
-    box-shadow: 1px 1px 9px 0 #000000;
-    text-shadow: 1px 1px 34px #000000;
-    border: ridge #000000 5px;
+.contact-me {
+    padding-bottom: 100px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #0b263d;
+    -webkit-box-shadow: 1px 1px 5px 0 #0b263d;
+    -moz-box-shadow: 1px 1px 5px 0 #0b263d;
+    box-shadow: 1px 1px 1px 0 #0b263d;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
  }
  
- .BUTTON_UBB:hover {
-    border: ridge #000000 5px;
+ .btn:hover {
     background: #27536B;
-    background-image: -webkit-linear-gradient(top, #27536B, #1E62D0);
-    background-image: -moz-linear-gradient(top, #27536B, #1E62D0);
-    background-image: -ms-linear-gradient(top, #27536B, #1E62D0);
-    background-image: -o-linear-gradient(top, #27536B, #1E62D0);
-    background-image: -webkit-gradient(to bottom, #27536B, #1E62D0);
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    border-radius: 13px;
+    border: solid #27536B 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
     text-decoration: none;
  }
 
@@ -140,8 +138,4 @@ a:visited {
     background-color: #CBE2FF;
     padding-bottom: 1px;
     padding-top: 10px;
-}
-
-.contact-me {
-    padding-bottom: 100px;
 }
