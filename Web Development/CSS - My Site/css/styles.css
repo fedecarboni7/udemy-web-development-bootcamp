@@ -145,6 +145,5 @@ a:visited {
 
 .bottom-container{
     background-color: #CBE2FF;
-    padding-bottom: 1px;
-    padding-top: 10px;
+    padding: 1%;
 }
