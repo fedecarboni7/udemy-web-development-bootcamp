@@ -37,7 +37,7 @@ td {
 
 hr {
     border: none;
-    width: 4%;
+    width: 5%;
     border-top: 6px dotted #CBE2FF;
     margin: 100px auto;
 }
@@ -64,28 +64,25 @@ a:visited {
 
 .top-container{
     background-color: #27536B;
-    padding-top: 100px;
+    padding: 4% 15% 0;
 }
 
 .moon-img{
-    block-size: 130px;
-    padding-right: 620px;
+    height: 130px;
+    padding-right: 70%;
 }
 
 .mountain-img{
-    block-size: 290px;
-    padding-left: 600px;
-    margin-top: -50px;
+    height: 290px;
+    padding-left: 50%;
     margin-bottom: -4px;
 }
-
 .middle-container{
-    padding-top: 100px;
+    padding: 1% 15%;
     background-color: #8faed6;
 }   
 
 .profile{
-    width: 50%;
     margin: 50px auto;
 }
 
@@ -100,13 +97,13 @@ a:visited {
 }
 
 .code-img{
-    width: 25%;
+    width: 30%;
     float: left;
     margin-right: 30px;
 }
 
 .skill-img {
-    width: 25%;
+    width: 35%;
     float: right;
     margin-left: 30px;
 }
@@ -145,5 +142,33 @@ a:visited {
 
 .bottom-container{
     background-color: #CBE2FF;
-    padding: 1%;
+    padding: 2%;
+}
+
+@media (max-width: 1055px) {
+
+    .mountain-img {
+        padding-left: 30%;
+    }
+
+    .moon-img {
+        margin-left: -50px;
+    }
+    
+    .skill-row{
+        margin: 80px auto;
+    }
+
+    .code-img{
+        width: 80%;
+        padding-bottom: 30px;
+        float: none;
+    }
+    
+    .skill-img {
+        width: 80%;
+        padding-bottom: 30px;
+        float: none;
+    }
+    
 }
