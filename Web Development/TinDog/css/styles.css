@@ -2,9 +2,15 @@ body {
     font-family: "Montserrat";
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 .container-fluid{
@@ -30,6 +36,7 @@ h3 {
 
 p {
     color: #8f8f8f;
+    font-weight: 500;
 }
 
 /* Navigation Bar */
@@ -57,6 +64,13 @@ p {
 
 .download-button {
     margin: 3% 5% 3% 0;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
 }
 
 /* Title Image */
@@ -132,13 +146,24 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
-    #title {
-        text-align: center;
-    }
+/* Call to Action Section */
 
-    .title-image {
-        position: static;
-        transform: rotate(0);
-    }
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 10% 20%;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 20%;;
+}
+
+.footer-link {
+    color: #000;
+    margin: 10px;
 }
